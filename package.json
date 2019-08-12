@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "babel": "./node_modules/.bin/babel browser.js ­d build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
