@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "uglify": "./node_modules/.bin/uglifyjs build/browser.js -­o build/browser.min.js",
     "babel": "./node_modules/.bin/babel browser.js -­d build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
